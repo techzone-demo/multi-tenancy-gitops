@@ -15,8 +15,8 @@ spec:
   project: services
   source:
     path: 2-services/instances/developer-dashboard
-    repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
-    targetRevision: master
+    repoURL: https://github.com/techzone-demo/multi-tenancy-gitops.git
+    targetRevision: demo-mq-v2-techzone-demo
     helm:
       releaseName: developer-dashboard
       valueFiles:
